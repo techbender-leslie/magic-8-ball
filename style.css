@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700,700italic);
+
+@font-face {
+    font-family: SpicyRice;
+    src: url(SpicyRice-Regular.ttf);
+}
+
+@font-face {
+    font-family: Acme;
+    src: url(Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: Aladin;
+    src: url(Aladin-Regular.ttf);
+}
+
+header {
+	background-color: darkcyan;
+	height: 25px;
+	margin-bottom: 25px;
+	margin: 0;
+}
+
+
+
+.btn {
+border-radius: 24px;
+}
+
+#button-well {
+	background: transparent;
+	border: none;
+	margin-top: -200px;
+	padding-right: 0px;
+}
+
+#small-well {
+	background: transparent;
+	border: none;
+	height: 348px;
+	width: auto;
+	margin-left: 65px;
+	margin-top: 50px;
+}
+
+#small-words {
+	border: none;
+	height: 348px;
+	width: auto;
+	margin-bottom: -100px;
+}
+
+.intro {
+	background-color: paleturquoise;
+	padding: 15px 15px 10px 15px;
+}
+
+.intro p {
+	font-size: 24px;
+}
+
+.jumbotron {
+	width: auto;
+	height: 700px;
+	background: url(http://www.gannett-cdn.com/-mm-/75f132e124944b67a800e09bf2e5479180d2b86b/c=0-204-4064-2500&r=x1683&c=3200x1680/local/-/media/2015/04/20/USATODAY/USATODAY/635651257150825831-BW-15-8BALL-0124.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	
+}
+
+.jumbo-text h1 {
+	margin-top: 5px;
+	font-size: 94px;
+	color: orange;
+	/*font-family: 'Arvo', serif;*/
+	font-family: 'SpicyRice';
+	text-shadow: 2px 1px black;
+}
+
+#type-here {
+	margin-top: -30px;
+	padding: 10px;
+    font-size: 28px;
+}
+
+
+
+#ask-question-container {
+    text-align: center;
+	font-size: 48px;
+	font-family: 'Acme', serif;
+	font-weight: 700;
+	background-color: paleturquoise;
+}
+
+#ask-question-container h1 {
+	margin-bottom: 60px;
+}
+
+#ask-something-form {
+}
+
+#click-here {
+	border-radius: 24px;
+	color: white;
+	font-size: 48px;
+	background-color: black;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	padding: 10px 20px 10px 20px;
+}
+
+#empty-space {
+	height: 100px;
+	width: auto;
+}

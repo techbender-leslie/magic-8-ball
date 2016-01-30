@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>WDI Magic 8 Ball</title>
+		<link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" async></script>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<header>
+	</header>
+
+	<body>
+	  <div class="container-fluid">
+
+	    <div class="row well well-lg" id="jumbo-well"> 	
+			  <div class='col-sm-12'>
+			    <div class="jumbotron">
+			      <div class="jumbo-text">
+	  				<h1>Behold, the WDI 26 Magic 8 Ball®</h1>
+	  			  </div> <!-- close jumbo-text !-->
+	  	    
+
+	  	<div class="row well well-lg" id="small-well">
+					<div class='col-sm-4 col-sm-offset-8' id='small-words'>
+						<div class="intro">		
+						<p class="lead">The original <b>WDI 26 MAGIC 8 BALL®</b> has all the answers you need! Ask any question on any matter, click the button and you’ll get the answer to help you!</p>
+						</div>
+		  		</div>
+		  	</div>
+			
+			<div class="row well" id='button-well'>
+		  		<div class='col-sm-4 col-sm-offset-8' id="orange-button">
+	  			 <a class="btn btn-warning btn-lg btn-block" href="#ask-question-container" role="button">ASK A QUESTION</a>
+	  			</div>
+	  	</div>
+			</div>
+		</div>
+	</div> 
+</div>
+  <!-- close container fluid -->
+
+<div class='container-fluid' id='ask-question-container'>
+  <div class='col-sm-10 col-sm-offset-1'>
+  <h1>Ask the WDI 26 Magic 8 Ball anything! What answer do you seek?</h1>
+  <form id ="ask-something-form">
+    <textarea rows="2" id="type-here" type="text" cols="60" maxlength="200" placeholder="Ask your yes or no question..."></textarea>
+    <br>
+    <input type="reset" id="click-here" value="{{  SHAKE THE MAGIC 8 BALL }}">
+  </form>
+
+  <hr>
+
+  <div id= "lil-questions-here">
+    <div id= "lil-questions-list">
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <div id="empty-space">
+
+
+
+		
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
